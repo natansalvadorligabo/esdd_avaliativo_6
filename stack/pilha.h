@@ -25,14 +25,14 @@ typedef int Tipo_Informacao;
  * um ponteiro para uma pilha, cria a pilha alterando o argumento ponteiro
  * de entrada/saída.
 */
-void init(Pilha* pilha);
+void init_pilha(Pilha* pilha);
 
 
 /**
  * Operação recebe como argumento uma pilha e retorna true caso a pilha 
  * esteja cheia ou retorna false caso a pilha não esteja cheia.
 */
-bool is_full(Pilha pilha);
+bool is_full_pilha(Pilha pilha);
 
 
 /**
@@ -40,7 +40,7 @@ bool is_full(Pilha pilha);
  * esteja vazia, ou seja, sem elementos, ou retorna false caso a pilha
  * não esteja vazia.
 */
-bool is_empty(Pilha pilha);
+bool is_empty_pilha(Pilha pilha);
 
 
 /**

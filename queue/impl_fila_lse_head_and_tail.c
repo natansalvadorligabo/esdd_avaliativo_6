@@ -12,17 +12,17 @@ struct queue{
     Node fim;    //TAIL
 };
 
-void init(Queue* queue){
+void init_queue(Queue* queue){
     *queue = malloc(sizeof(struct queue));
     (*queue)->inicio = NULL;
     (*queue)->fim = NULL;
 }
 
-bool is_full(Queue queue){
+bool is_full_queue(Queue queue){
     return false;
 }
 
-bool is_empty(Queue queue){
+bool is_empty_queue(Queue queue){
     return queue->inicio == NULL;
 }
 

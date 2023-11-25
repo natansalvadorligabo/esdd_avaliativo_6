@@ -24,19 +24,18 @@ typedef struct queue* Queue;
 /**
  * Inicializa o queue
 */
-void init(Queue* queue);
-
+void init_queue(Queue* queue);
 
 /**
  * Retorna se a queue está cheia em função da 
  * constante QUEUE_MAX_SIZE.
 */
-bool is_full(Queue queue);
+bool is_full_queue(Queue queue);
 
 /**
  * Retorna se a queue está vazia ou não.
 */
-bool is_empty(Queue queue);
+bool is_empty_queue(Queue queue);
 
 /**
  * Insere um novo elemento no final da fila.

@@ -21,16 +21,16 @@ struct stack{
     Node topo;
 };
 
-void init(Pilha* pilha){
+void init_pilha(Pilha* pilha){
     *pilha = malloc(sizeof(struct stack));
     (*pilha)->topo = NULL;
 }
 
-bool is_full(Pilha pilha){
+bool is_full_pilha(Pilha pilha){
     return false;
 }
 
-bool is_empty(Pilha pilha){
+bool is_empty_pilha(Pilha pilha){
     return pilha->topo == NULL;
 }
 

@@ -13,13 +13,18 @@ int get_priority_group(Patient patient){
     return patient->priority_group;
 }
 
-void set_batch_vaccine(Patient patient, int batch_vaccine){
-    patient->batch_vaccine = batch_vaccine;
+int get_SUS_number(Patient patient){
+    return patient->SUS_number;
 }
 
-void print_patient(Patient patient){
-    printf("Número SUS: %d\n", patient->SUS_number);
-    printf("Idade: %d\n", patient->age);
-    printf("Grupo de prioridade: %d\n", patient->priority_group);
-    printf("Lote da vacina: %d\n", patient->batch_vaccine);
+int get_batch_vaccine(Patient patient){
+    return patient->batch_vaccine;
+}
+
+int get_patient_age(Patient patient){
+    return patient->age;
+}
+
+void set_batch_vaccine(Patient patient, int batch_vaccine){
+    patient->batch_vaccine = batch_vaccine;
 }

@@ -29,11 +29,10 @@ A equipe utilizou a ferramenta Trello para organizar e atribuir as diferentes at
 1. Clone o repositório: `git clone https://github.com/natansalvadorligabo/esdd_avaliativo_6.git`
 2. Execute o script de compilação: `gcc *.c`
 
-## Screenshots
-![Video] 
+## Video
+Operações no menu:
 
-
-![Menu e Operações do client_code.c]
+https://github.com/natansalvadorligabo/esdd_avaliativo_6/assets/64981353/fc25280f-9e1a-406b-aeed-216a414cc8b4
 
 ## Tipos Abstratos de Dados (TAD)
 1. **TAD Paciente**

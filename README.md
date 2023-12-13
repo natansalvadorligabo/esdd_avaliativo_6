@@ -50,17 +50,25 @@ struct patient{
 };
 ```
 
-2. **TAD Fila (LDE)**
-- Operações: init_list, is_empty_list, insert_ascend, delete_first
+2. **TAD Lista Duplamente Encadeada (LDE)**
+- Operações: init_list, is_empty_list
 ```c
+struct node {
+    struct node* prev;
+    Infotype info;
+    struct node* next;
+};
 
+struct list {
+    Node head;
+};
 ```
 
-3. **TAD Pilha (LDE)**
-- Operações:
-```c
+**Pilha**
+- Operações: insert_last, delete_last
 
-```
+**Fila**
+- Operações: insert_ascend, delete_first
 
 ## Licença
 Este projeto é licenciado sob a [Apache License 2.0](LICENSE). Leia o arquivo LICENSE para mais detalhes.

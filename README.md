@@ -50,31 +50,16 @@ struct patient{
 };
 ```
 
-2. **TAD Fila**
-- Operações: init, is_full, is_empty, enqueue, dequeue.
+2. **TAD Fila (LDE)**
+- Operações: init_list, is_empty_list, insert_ascend, delete_first
 ```c
-struct node{
-    Element info;
-    Node next;
-};
 
-struct queue{
-    Node inicio; //HEAD
-    Node fim;    //TAIL
-};
 ```
 
-3. **TAD Pilha**
-- Operações: init, is_full, is_empty, push, pop.
+3. **TAD Pilha (LDE)**
+- Operações:
 ```c
-struct node{
-    Tipo_Informacao info;
-    Node next;
-};
 
-struct stack{
-    Node topo;
-};
 ```
 
 ## Licença

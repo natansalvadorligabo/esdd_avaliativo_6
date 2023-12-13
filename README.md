@@ -29,16 +29,25 @@ A equipe utilizou a ferramenta Trello para organizar e atribuir as diferentes at
 1. Clone o repositório: `git clone https://github.com/natansalvadorligabo/esdd_avaliativo_6.git`
 2. Execute o script de compilação: `gcc *.c`
 
-## Video
+## Screenshots e Video
+Menu:
+
+![image](https://github.com/natansalvadorligabo/esdd_avaliativo_6/assets/64981353/c270ba3e-08b6-49cf-b1c4-c0f1c8dd8276)
+
 Operações no menu:
 
-https://github.com/natansalvadorligabo/esdd_avaliativo_6/assets/64981353/fc25280f-9e1a-406b-aeed-216a414cc8b4
+https://github.com/natansalvadorligabo/esdd_avaliativo_6/assets/64981353/f1434f8a-3616-41a8-a26d-f1f3d190fa87
 
 ## Tipos Abstratos de Dados (TAD)
 1. **TAD Paciente**
-- Operações: ''
+- Operações: init_patient, get_priority_group, get_SUS_number, get_batch_vaccine, get_patient_age, set_batch_vaccine
 ```c
-
+struct patient{
+    int SUS_number;
+    int age;
+    int priority_group;
+    int batch_vaccine;
+};
 ```
 
 2. **TAD Fila**

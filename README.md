@@ -29,45 +29,46 @@ A equipe utilizou a ferramenta Trello para organizar e atribuir as diferentes at
 1. Clone o repositório: `git clone https://github.com/natansalvadorligabo/esdd_avaliativo_6.git`
 2. Execute o script de compilação: `gcc *.c`
 
-## Screenshots
-![Video] 
+## Screenshots e Video
+Menu:
 
+![image](https://github.com/natansalvadorligabo/esdd_avaliativo_6/assets/64981353/c270ba3e-08b6-49cf-b1c4-c0f1c8dd8276)
 
-![Menu e Operações do client_code.c]
+Operações no menu:
+
+https://github.com/natansalvadorligabo/esdd_avaliativo_6/assets/64981353/f1434f8a-3616-41a8-a26d-f1f3d190fa87
 
 ## Tipos Abstratos de Dados (TAD)
 1. **TAD Paciente**
-- Operações: ''
+- Operações: init_patient, get_priority_group, get_SUS_number, get_batch_vaccine, get_patient_age, set_batch_vaccine
 ```c
-
-```
-
-2. **TAD Fila**
-- Operações: init, is_full, is_empty, enqueue, dequeue.
-```c
-struct node{
-    Element info;
-    Node next;
-};
-
-struct queue{
-    Node inicio; //HEAD
-    Node fim;    //TAIL
+struct patient{
+    int SUS_number;
+    int age;
+    int priority_group;
+    int batch_vaccine;
 };
 ```
 
-3. **TAD Pilha**
-- Operações: init, is_full, is_empty, push, pop.
+2. **TAD Lista Duplamente Encadeada (LDE)**
+- Operações: init_list, is_empty_list
 ```c
-struct node{
-    Tipo_Informacao info;
-    Node next;
+struct node {
+    struct node* prev;
+    Infotype info;
+    struct node* next;
 };
 
-struct stack{
-    Node topo;
+struct list {
+    Node head;
 };
 ```
+
+**Pilha**
+- Operações: insert_last, delete_last
+
+**Fila**
+- Operações: insert_ascend, delete_first
 
 ## Licença
 Este projeto é licenciado sob a [Apache License 2.0](LICENSE). Leia o arquivo LICENSE para mais detalhes.

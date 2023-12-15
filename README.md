@@ -72,7 +72,3 @@ struct list {
 
 ## Licença
 Este projeto é licenciado sob a [Apache License 2.0](LICENSE). Leia o arquivo LICENSE para mais detalhes.
-
----
-
-**Nota:** Este é um READ.md modelo e os comandos, estratégias e imagens são meramente ilustrativos.
